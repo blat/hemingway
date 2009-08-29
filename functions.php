@@ -1,4 +1,5 @@
 <?php
+load_theme_textdomain('hemingway');
 
 $themecolors = array(
 	'bg' => '000000',
@@ -74,19 +75,19 @@ class Hemingway
 				return true;
 			}
 			
-			// Templating functions
-			
-			function get_block_output($block_place)
-				{
-					$blocks = $this->get_block_contents($block_place);
-					foreach($blocks as $key => $block ){
-						include (TEMPLATEPATH . '/blocks/' . $block . '.php');
-					}
+		// Templating functions
+		
+		function get_block_output($block_place)
+			{
+				$blocks = $this->get_block_contents($block_place);
+				foreach($blocks as $key => $block ){
+					include (TEMPLATEPATH . '/blocks/' . $block . '.php');
 				}
-				
-			function get_style(){
-				$this->style = get_option('hem_style');
 			}
+			
+		function get_style(){
+			$this->style = get_option('hem_style');
+		}
 	}
 	
 $hemingway = new Hemingway();
@@ -97,12 +98,12 @@ $hemingway->version = "0.13";
 // Options
 
 $default_blocks = Array(
-	'recent_entries' => 'Recent Entries',
-	'about_page' => 'About Page',
-	'category_listing' => 'Category Listing',
-	'blogroll' => 'Blogroll',
-	'pages' => 'Pages',
-	'monthly_archives' => 'Monthly Archives'
+	'recent_entries' => __('Recent Entries', 'hemingway'),
+	'about_page' => __('About Page', 'hemingway'),
+	'category_listing' => __('Category Listing', 'hemingway'),
+	'blogroll' => __('Blogroll', 'hemingway'),
+	'pages' => __('Pages', 'hemingway'),
+	'monthly_archives' => __('Monthly Archives', 'hemingway')
 );
 
 $default_block_locations = Array(
@@ -117,7 +118,7 @@ $default_block_locations = Array(
 if (!get_option('hem_version') || get_option('hem_version') < $hemingway->version){
 	// Hemingway isn't installed, so we'll need to add options
 	if (!get_option('hem_version') )
-		add_option('hem_version', $hemingway->version, 'Hemingway Version installed');
+		add_option('hem_version', $hemingway->version, __('Hemingway Version installed', 'hemingway'));
 	else
 		update_option('hem_version', $hemingway->version);
 		
@@ -128,7 +129,7 @@ if (!get_option('hem_version') || get_option('hem_version') < $hemingway->versio
 		add_option('hem_blocks', $default_block_locations, 'An array of blocks and their contents');
 	
 	if (!get_option('hem_style') )
-		add_option('hem_style', '', 'Location of custom style sheet');
+		add_option('hem_style', '', __('Location of custom style sheet', 'hemingway'));
 }
 // Ajax Stuff
 
@@ -196,7 +197,7 @@ function hemingway_scripts() {
 }
 
 function hemingway_menu() {
-	$page = add_submenu_page('themes.php', 'Hemingway Options', 'Hemingway Options', 5, $hem_loc . 'functions.php', 'menu');
+	$page = add_submenu_page('themes.php', __('Hemingway Options', 'hemingway'), __('Hemingway Options', 'hemingway'), 5, $hem_loc . 'functions.php', 'menu');
 	add_action('load-' . $page, 'hemingway_scripts');
 }
 
@@ -267,18 +268,17 @@ for some people :)
 <? endif; ?>
 
 <div class="wrap" style="position:relative;">
-<h2><?php _e('Hemingway Options'); ?></h2>
+<h2><?php _e('Hemingway Options', 'hemingway'); ?></h2>
 
-<h3>Color Options</h3>
-<p>Choose a primary color for your site:</p>
+<h3><?php _e('Color Options', 'hemingway'); ?></h3>
+<p><?php _e('Choose a primary color for your site:', 'hemingway'); ?></p>
 <form name="dofollow" action="" method="post">
   <input type="hidden" name="page_options" value="'dofollow_timeout'" />
 
-  <p><label><input name="custom_styles" type="radio" value="none" <?php if ($hemingway->style == 'none') echo 'checked="checked"'; ?> /> 
-  Black</label></p>
-  <p><label><input name="custom_styles" type="radio" value="white.css" <?php if ($hemingway->style == 'white.css') echo 'checked="checked"'; ?> /> White</label></p>
+  <p><label><input name="custom_styles" type="radio" value="none" <?php if ($hemingway->style == 'none') echo 'checked="checked"'; ?> /> <?php _e('Black', 'hemingway'); ?></label></p>
+  <p><label><input name="custom_styles" type="radio" value="white.css" <?php if ($hemingway->style == 'white.css') echo 'checked="checked"'; ?> /> <?php _e('White', 'hemingway'); ?></label></p>
 
-	<input type="submit" value="Update Color &raquo;" />
+	<input type="submit" value="<?php _e('Update Color &raquo;', 'hemingway'); ?>" />
 </form>
 
 <h3>Hemingway's Bottombar&trade;</h3>

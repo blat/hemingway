@@ -1,4 +1,4 @@
-<h2>Recently</h2>
+<h2><?php _e('Recently', 'hemingway'); ?></h2>
 <ul class="dates">
 	<?php
 		// I love WordPress so

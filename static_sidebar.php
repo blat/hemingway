@@ -2,7 +2,7 @@
 	<div id="ancillary">
 		<div class="inside">
 			<div class="block first">
-				<h2>About</h2>
+				<h2><?php _e('About', 'hemingway'); ?></h2>
 				<?php query_posts('pagename=about'); ?>
 				<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
@@ -12,7 +12,7 @@
 			</div>
 			
 			<div class="block">
-				<h2>Recently</h2>
+				<h2><?php _e('Recently', 'hemingway'); ?></h2>
 				<ul class="dates">
 					<?php
 						// I love WordPress so
@@ -25,7 +25,7 @@
 			</div>
 			
 			<div class="block">
-				<h2>Categories</h2>
+				<h2><?php _e('Categories', 'hemingway'); ?></h2>
 				<ul class="counts">
 					<?php wp_list_cats('sort_column=name&optioncount=1&hierarchical=0'); ?>
 				</ul>

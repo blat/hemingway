@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hemingway theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-29 15:05+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Adrien Gibrat <adrien.gibrat@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: header.php:19
+msgid "% RSS Feed"
+msgstr ""
+
+#: searchform.php:3
+#: search.php:37
+msgid "Search"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Archive for the \"%s\" Category"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Archive for the \"%s\" Tag"
+msgstr ""
+
+#: archive.php:19
+#: archive.php:22
+#: archive.php:25
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: archive.php:28
+#: search.php:9
+msgid "Search Results"
+msgstr ""
+
+#: archive.php:31
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:34
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:43
+#: search.php:16
+#, php-format
+msgid "posted in %s"
+msgstr ""
+
+#: archive.php:44
+#: index.php:13
+#: search.php:17
+msgid "tagged"
+msgstr ""
+
+#: archive.php:51
+#: search.php:24
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: archive.php:52
+#: search.php:25
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: archive.php:58
+#: index.php:22
+msgid "Not Found"
+msgstr ""
+
+#: archive.php:65
+msgid "About the archives"
+msgstr ""
+
+#: archive.php:67
+#, php-format
+msgid "Welcome to the archives here at %s. Have a look around."
+msgstr ""
+
+#: links.php:11
+msgid "Links:"
+msgstr ""
+
+#: 404.php:6
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:7
+msgid "It looks like there's a problem with the page you're trying to get to. If you're looking for something in particular, try using the search form below, or by browsing the archives."
+msgstr ""
+
+#: 404.php:9
+msgid "Search this site:"
+msgstr ""
+
+#: 404.php:12
+#: archives.php:13
+msgid "Archives by Month:"
+msgstr ""
+
+#: 404.php:17
+#: archives.php:18
+msgid "Archives by Subject:"
+msgstr ""
+
+#: 404.php:23
+msgid "Why am I seeing this?"
+msgstr ""
+
+#: 404.php:24
+msgid "You requested a page that doesn't exist on this site any more. This could be caused by a link you followed that was out of date, by a typing in the wrong address in the address bar, or simply because the post has been deleted."
+msgstr ""
+
+#: functions.php:101
+msgid "Recent Entries"
+msgstr ""
+
+#: functions.php:102
+msgid "About Page"
+msgstr ""
+
+#: functions.php:103
+msgid "Category Listing"
+msgstr ""
+
+#: functions.php:104
+msgid "Blogroll"
+msgstr ""
+
+#: functions.php:105
+msgid "Pages"
+msgstr ""
+
+#: functions.php:106
+msgid "Monthly Archives"
+msgstr ""
+
+#: functions.php:121
+msgid "Hemingway Version installed"
+msgstr ""
+
+#: functions.php:132
+msgid "Location of custom style sheet"
+msgstr ""
+
+#: functions.php:200
+#: functions.php:271
+msgid "Hemingway Options"
+msgstr ""
+
+#: functions.php:273
+msgid "Color Options"
+msgstr ""
+
+#: functions.php:274
+msgid "Choose a primary color for your site:"
+msgstr ""
+
+#: functions.php:278
+msgid "Black"
+msgstr ""
+
+#: functions.php:279
+msgid "White"
+msgstr ""
+
+#: functions.php:281
+msgid "Update Color &raquo;"
+msgstr ""
+
+#: static_sidebar.php:5
+msgid "About"
+msgstr ""
+
+#: static_sidebar.php:15
+msgid "Recently"
+msgstr ""
+
+#: static_sidebar.php:28
+msgid "Categories"
+msgstr ""
+
+#: index.php:10
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: index.php:13
+#, php-format
+msgid "Posted at %s"
+msgstr ""
+
+#: index.php:13
+msgid ""
+"ga \\o\\n"
+" n/j/y"
+msgstr ""
+
+#: index.php:13
+#: page.php:25
+#: single.php:44
+msgid "No comments"
+msgstr ""
+
+#: index.php:13
+#: page.php:25
+#: single.php:44
+msgid "1 Comment"
+msgstr ""
+
+#: index.php:13
+#: page.php:25
+#: single.php:44
+msgid "% Comments"
+msgstr ""
+
+#: index.php:13
+#, php-format
+msgid "Filed Under: %s"
+msgstr ""
+
+#: index.php:13
+msgid "read on"
+msgstr ""
+
+#: index.php:23
+#: single.php:58
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:35
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:59
+#: single.php:50
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:68
+msgid "Have your say"
+msgstr ""
+
+#: comments.php:69
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: %s"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: comments.php:75
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:75
+msgid "Logout &raquo;"
+msgstr ""
+
+#: comments.php:78
+msgid "Name"
+msgstr ""
+
+#: comments.php:78
+#: comments.php:79
+msgid "(required)"
+msgstr ""
+
+#: comments.php:79
+msgid "Email"
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Safari hates me"
+msgstr ""
+
+#: comments.php:87
+msgid "Add your comment"
+msgstr ""
+
+#: search.php:30
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: search.php:39
+#, php-format
+msgid "You searched for &ldquo;%s&rdquo; at %s."
+msgstr ""
+
+#: search.php:41
+msgid "There were no results, better luck next time."
+msgstr ""
+
+#: search.php:42
+msgid "There were one result found. It must be your lucky day."
+msgstr ""
+
+#: search.php:43
+#, php-format
+msgid "There were %d results found."
+msgstr ""
+
+#: page.php:8
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: page.php:10
+msgid "Pages:"
+msgstr ""
+
+#: page.php:12
+#: single.php:30
+msgid "Edit this entry."
+msgstr ""
+
+#: page.php:26
+#: single.php:45
+msgid "Jump to comment form"
+msgstr ""
+
+#: page.php:26
+#: single.php:45
+msgid "comments rss"
+msgstr ""
+
+#: page.php:26
+#: single.php:45
+msgid "trackback uri"
+msgstr ""
+
+#: footer.php:9
+#, php-format
+msgid "Powered by %s flavored %s."
+msgstr ""
+
+#: footer.php:10
+msgid "Entries RSS"
+msgstr ""
+
+#: footer.php:10
+msgid "Comments RSS"
+msgstr ""
+
+#: single.php:8
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: single.php:13
+msgid "About this entry"
+msgstr ""
+
+#: single.php:15
+#, php-format
+msgid "You&rsquo;re currently reading &ldquo;%s&rdquo;, an entry on %s"
+msgstr ""
+
+#: single.php:17
+msgid "Published:"
+msgstr ""
+
+#: single.php:21
+msgid "Category:"
+msgstr ""
+
+#: single.php:26
+msgid "Tags:"
+msgstr ""
+
+#: single.php:30
+msgid "Edit:"
+msgstr ""
+
+#: single.php:51
+msgid "Comments are currently closed on this entry."
+msgstr ""
+
+#: attachment.php:29
+#, php-format
+msgid "This entry was posted on %s at %s and is filed under %s%s."
+msgstr ""
+
+#: attachment.php:29
+msgid " with tags "
+msgstr ""
+
+#: attachment.php:31
+#, php-format
+msgid "You can follow any responses to this entry through the <a href=\"%s\">RSS 2.0</a> feed."
+msgstr ""
+
+#: attachment.php:36
+#, php-format
+msgid "You can <a href=\"#comment-form\">leave a comment</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: attachment.php:39
+#, php-format
+msgid "Comments are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: attachment.php:42
+msgid "You can <a href=\"#comment-form\">leave a comment</a>. Pinging is currently not allowed."
+msgstr ""
+
+#: attachment.php:45
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: attachment.php:58
+msgid "Sorry, no attachments matched your criteria."
+msgstr ""
+
+#: blocks/about_page.php:4
+msgid "Edit"
+msgstr ""
+
