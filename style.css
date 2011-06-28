@@ -640,3 +640,7 @@ img.alignleft {
   padding: 0 4px 5px;
   margin: 0;
 }
+
+.wp-post-image {
+  width: 100%;
+}

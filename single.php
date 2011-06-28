@@ -12,6 +12,7 @@
 			<div class="secondary">
 				<h2><?php _e('About this entry', 'hemingway'); ?></h2>
 				<div class="featured">
+					<?php if (has_post_thumbnail()): the_post_thumbnail('medium'); endif; ?>
 					<p><?php printf(__('You&rsquo;re currently reading &ldquo;%s&rdquo;, an entry on %s', 'hemingway'), get_the_title(), get_option('blogname')); ?></p>
 					<dl>
 						<dt><?php _e('Published:', 'hemingway'); ?></dt>

@@ -1,5 +1,6 @@
 <?php
 load_theme_textdomain('hemingway');
+add_theme_support('post-thumbnails');
 
 $themecolors = array(
 	'bg' => '000000',
