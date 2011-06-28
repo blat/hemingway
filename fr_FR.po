@@ -1,0 +1,441 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hemingway theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-22 22:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Page not found"
+msgstr "Page non trouv&eacute;e."
+
+#: 404.php:7
+msgid "It looks like there's a problem with the page you're trying to get to. If you're looking for something in particular, try using the search form below, or by browsing the archives."
+msgstr "Il semble qu'il y ait un probl&egrave;me avec la page que vous essayez d'atteindre. Si vous cherchez quelque chose en particulier, essayez d'utiliser la recherche, ou parcourez les archives."
+
+#: 404.php:9
+msgid "Search this site:"
+msgstr "Cherchez sur ce site :"
+
+#: 404.php:12
+#: archives.php:13
+msgid "Archives by Month:"
+msgstr "Archives par mois :"
+
+#: 404.php:17
+#: archives.php:18
+msgid "Archives by Subject:"
+msgstr "Archives par sujet :"
+
+#: 404.php:23
+msgid "Why am I seeing this?"
+msgstr "Pourquoi est-ce que je vois ceci ?"
+
+#: 404.php:24
+msgid "You requested a page that doesn't exist on this site any more. This could be caused by a link you followed that was out of date, by a typing in the wrong address in the address bar, or simply because the post has been deleted."
+msgstr "La page demand&eacute; n'existe plus. Peut-&ecirc;tre avez vous suivi un lien expir&eacute;, tap&eacute; une mauvaise adresse, ou est-ce simplement parce que l'article a &eacute;t&eacute; supprim&eacute."
+
+#: comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Ne chargez pas cette page directement. Merci !"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est prot&eacute;g&eacute; par un mot de passe. Entrez le mot de passe pour voir les commentaires."
+
+#: comments.php:35
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: comments.php:59
+msgid "Comments are closed"
+msgstr "Les commentaires sont ferm&eacute;s"
+
+#: comments.php:68
+msgid "Have your say"
+msgstr "Exprimez-vous"
+
+#: comments.php:69
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: %s"
+msgstr "<strong>XHTML :</strong> Vous pouvez utiliser ces balises : %s"
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez &ecirc;tre <a href=\"%s\">connect&eacute;</a> pour poster un commentaire."
+
+#: comments.php:75
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Connect&eacute; en tant que <a href=\"%s\">%s</a>."
+
+#: comments.php:75
+msgid "Log out of this account"
+msgstr "Se d&eacute;connecter"
+
+#: comments.php:75
+msgid "Logout &raquo;"
+msgstr "D&eacute;connection"
+
+#: comments.php:78
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:78
+#: comments.php:79
+msgid "(required)"
+msgstr "(requis)"
+
+#: comments.php:79
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:80
+msgid "Website"
+msgstr "Site web"
+
+#: comments.php:86
+msgid "Safari hates me"
+msgstr "Safari me d&eacute;teste"
+
+#: comments.php:87
+msgid "Add your comment"
+msgstr "Poster votre commentaire"
+
+#: static_sidebar.php:5
+msgid "About"
+msgstr "&Agrave; propos"
+
+#: static_sidebar.php:15
+msgid "Recently"
+msgstr "R&eacute;cemment"
+
+#: static_sidebar.php:28
+msgid "Categories"
+msgstr "Cat&eacute;gories"
+
+#: functions.php:101
+msgid "Recent Entries"
+msgstr "Articles r&eacute;cents"
+
+#: functions.php:102
+msgid "About Page"
+msgstr "Page d'&agrave; propos"
+
+#: functions.php:103
+msgid "Category Listing"
+msgstr "Liste des cat&eacute;gories"
+
+#: functions.php:104
+msgid "Blogroll"
+msgstr "Liens"
+
+#: functions.php:105
+msgid "Pages"
+msgstr "Pages"
+
+#: functions.php:106
+msgid "Monthly Archives"
+msgstr "Archives mensuelles"
+
+#: functions.php:121
+msgid "Hemingway Version installed"
+msgstr "Version install&eacute;e"
+
+#: functions.php:132
+msgid "Location of custom style sheet"
+msgstr "Adresse de votre CSS"
+
+#: functions.php:200
+#: functions.php:271
+msgid "Hemingway Options"
+msgstr "Options du th&egrave;me"
+
+#: functions.php:273
+msgid "Color Options"
+msgstr "Options"
+
+#: functions.php:274
+msgid "Choose a primary color for your site:"
+msgstr "Choississez la couleur dominante pour votre site :"
+
+#: functions.php:278
+msgid "Black"
+msgstr "Noir"
+
+#: functions.php:279
+msgid "White"
+msgstr "Blanc"
+
+#: functions.php:281
+msgid "Update Color &raquo;"
+msgstr "Modifier la couleur &raquo;"
+
+#: links.php:11
+msgid "Links:"
+msgstr "Liens :"
+
+#: attachment.php:14
+#: index.php:10
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Lien permanent vers %s"
+
+#: attachment.php:18
+msgid "Read the rest of this entry &raquo;"
+msgstr "Lire la suite de cet article &raquo;"
+
+#: attachment.php:20
+#: page.php:10
+msgid "Pages:"
+msgstr "Pages :"
+
+#: attachment.php:29
+#, php-format
+msgid "This entry was posted on %s at %s and is filed under %s%s."
+msgstr "Cet article a &eacute;t&eacute; publi&eacute; sur %s &agrave; %s et est class&eacute; dans %s%s."
+
+#: attachment.php:29
+msgid " with tags "
+msgstr " avec les tags "
+
+#: attachment.php:31
+#, php-format
+msgid "You can follow any responses to this entry through the <a href=\"%s\">RSS 2.0</a> feed."
+msgstr "Vous pouvez suivre les r&eacute;ponses &agrave; cet article gr&acirc;ce au <a href=\"%s\">flux RSS</a>."
+
+#: attachment.php:36
+#, php-format
+msgid "You can <a href=\"#comment-form\">leave a comment</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Vous pouvez <a href=\"#comment-form\">laisser un commentaire</a>, ou faire un <a href=\"%s\" rel=\"trackback\">trackback</a> depuis votre site."
+
+#: attachment.php:39
+#, php-format
+msgid "Comments are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr "Les commentaires sont ferm&eacute;s pour le moment, mais vous pouvez faire un <a href=\"%s\" rel=\"trackback\">trackback</a> depuis votre site."
+
+#: attachment.php:42
+msgid "You can <a href=\"#comment-form\">leave a comment</a>. Pinging is currently not allowed."
+msgstr "Vous pouvez <a href=\"#comment-form\">laisser un commentaire</a>. Les pings ne sont pas authoris&eacutes;s pour le moment."
+
+#: attachment.php:45
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Les commentaires et les trackbacks sont d&eacute;sactiv&eacute;s pour le moment."
+
+#: attachment.php:46
+#: page.php:12
+msgid "Edit this entry."
+msgstr "Modifier cet article."
+
+#: attachment.php:58
+msgid "Sorry, no attachments matched your criteria."
+msgstr "D&eacute;sol&eacute;, aucun fichier joint ne correspond &agrave; vos crit&egrave;res."
+
+#: searchform.php:3
+#: search.php:37
+msgid "Search"
+msgstr "Recherche"
+
+#: index.php:13
+#, php-format
+msgid "Posted at %s"
+msgstr "Publi&eacute; &agrave; %s"
+
+#: index.php:13
+msgid ""
+"ga \\o\\n"
+" n/j/y"
+msgstr "G\\h \\l\\e j/n/Y"
+
+#: index.php:13
+#: page.php:25
+msgid "No comments"
+msgstr "Aucun commentaire"
+
+#: index.php:13
+#: page.php:25
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: index.php:13
+#: page.php:25
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: index.php:13
+#, php-format
+msgid "Filed Under: %s"
+msgstr "Class&eacute; dans : %s"
+
+#: index.php:13
+#: archive.php:44
+#: search.php:17
+msgid "tagged"
+msgstr "tagg&eacute;"
+
+#: index.php:13
+msgid "read on"
+msgstr "lire"
+
+#: index.php:22
+#: archive.php:58
+msgid "Not Found"
+msgstr "Non trouv&eacute;"
+
+#: index.php:23
+msgid "Sorry, no posts matched your criteria."
+msgstr "D&eacute;sol&eacute;, aucun articles ne correspond &agrave; vos crit&egrave;res."
+
+#: archive.php:12
+#, php-format
+msgid "Archive for the \"%s\" Category"
+msgstr "Archives pour la cat&eacute;gorie \"%s\""
+
+#: archive.php:16
+#, php-format
+msgid "Archive for the \"%s\" Tag"
+msgstr "Archives pour le tag \"%s\""
+
+#: archive.php:19
+#: archive.php:22
+#: archive.php:25
+#, php-format
+msgid "Archive for %s"
+msgstr "Archives pour %s"
+
+#: archive.php:28
+#: search.php:9
+msgid "Search Results"
+msgstr "R&eacute;sultats de recherche"
+
+#: archive.php:31
+msgid "Author Archive"
+msgstr "Archives de l'auteur"
+
+#: archive.php:34
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#: archive.php:43
+#: search.php:16
+#, php-format
+msgid "posted in %s"
+msgstr "publi&eacute; dans %s"
+
+#: archive.php:51
+#: search.php:24
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Articles précédents"
+
+#: archive.php:52
+#: search.php:25
+msgid "Next Entries &raquo;"
+msgstr "Prochains articles &raquo;"
+
+#: archive.php:65
+msgid "About the archives"
+msgstr "&Agrave; propos des archives"
+
+#: archive.php:67
+#, php-format
+msgid "Welcome to the archives here at %s. Have a look around."
+msgstr "Bienvenue sur les archives de %s. Jetez un oeil autour de vous."
+
+#: header.php:19
+msgid "% RSS Feed"
+msgstr "% flux RSS"
+
+#: footer.php:9
+#, php-format
+msgid "Powered by %s flavored %s."
+msgstr "Propuls&eacute; par %s et %s."
+
+#: footer.php:10
+msgid "Entries RSS"
+msgstr "Flux RSS des articles"
+
+#: footer.php:10
+msgid "Comments RSS"
+msgstr "Flux RSS des commentaires"
+
+#: search.php:30
+msgid "No posts found. Try a different search?"
+msgstr "Aucun article trouv&eacute;. Essayez une recherche diff&eacute;rente ?"
+
+#: search.php:39
+#, php-format
+msgid "You searched for &ldquo;%s&rdquo; at %s."
+msgstr "Vous cherchez &ldquo;%s&rdquo; sur %s."
+
+#: search.php:41
+msgid "There were no results, better luck next time."
+msgstr "Il n'y a aucun r&eacute;resultat. Vous ferez mieux la prochaine fois."
+
+#: search.php:42
+msgid "There were one result found. It must be your lucky day."
+msgstr "Il y a un r&eacute;sultat trouv&eacute;. Ca doit &ecirc;tre votre jour de chance."
+
+#: search.php:43
+#, php-format
+msgid "There were %d results found."
+msgstr "Il y a %d r&eacute;sultats trouv&eacute;s."
+
+#: page.php:8
+msgid "Read the rest of this page &raquo;"
+msgstr "Lire la suite de cette page &raquo;"
+
+#: page.php:26
+msgid "Jump to comment form"
+msgstr "Laisser un commentaire"
+
+#: page.php:26
+msgid "comments rss"
+msgstr "flux des commentaires"
+
+#: page.php:26
+msgid "trackback uri"
+msgstr "uri de trackback"
+
+#: single.php:13
+msgid "About this entry"
+msgstr "&Agrave; propos de cet article"
+
+#: single.php:15
+#, php-format
+msgid "You&rsquo;re currently reading &ldquo;%s&rdquo;, an entry on %s"
+msgstr "Vous &ecirc;tes en train de lire &ldquo;%s&rdquo; un article sur %s"
+
+#: single.php:17
+msgid "Published:"
+msgstr "Publi&eacute; le :"
+
+#: single.php:21
+msgid "Category:"
+msgstr "Cat&eacute;gorie :"
+
+#: single.php:26
+msgid "Tags:"
+msgstr "Tags :"
+
+#: single.php:30
+msgid "Edit:"
+msgstr "Modifier :"
+
+#: single.php:51
+msgid "Comments are currently closed on this entry."
+msgstr "Les commentaires sont ferm&eacute; pour cet article."
+
+#: blocks/about_page.php:4
+msgid "Edit"
+msgstr "Modifier"
+
