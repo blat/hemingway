@@ -38,7 +38,7 @@
 		 <ul class="dates">
 		 	<?php while (have_posts()) : the_post(); ?>
 			<li>
-				<span class="date"><?php the_time('m.j.y') ?></span>
+				<span class="date"><?php the_date() ?></span>
 				<a href="<?php the_permalink() ?>"><?php the_title(); ?></a> 
 				<?php printf(__('posted in %s', 'hemingway'), get_the_category_list(', ')); ?>
 				<?php if (is_callable('the_tags')) the_tags(__('tagged', 'hemingway') . ' ', ', '); ?>

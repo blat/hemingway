@@ -16,7 +16,7 @@
 					<p><?php printf(__('You&rsquo;re currently reading &ldquo;%s&rdquo;, an entry on %s', 'hemingway'), get_the_title(), get_option('blogname')); ?></p>
 					<dl>
 						<dt><?php _e('Published:', 'hemingway'); ?></dt>
-						<dd><?php the_time('n.j.y') ?> / <?php the_time('ga') ?></dd>
+						<dd><?php the_date() ?> / <?php the_time() ?></dd>
 					</dl>
 					<dl>
 						<dt><?php _e('Author:', 'hemingway'); ?></dt>
