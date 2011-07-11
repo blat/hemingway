@@ -19,6 +19,10 @@
 						<dd><?php the_time('n.j.y') ?> / <?php the_time('ga') ?></dd>
 					</dl>
 					<dl>
+						<dt><?php _e('Author:', 'hemingway'); ?></dt>
+						<dd><?php the_author_link(); ?></dd>
+					</dl>
+					<dl>
 						<dt><?php _e('Category:', 'hemingway'); ?></dt>
 						<dd><?php the_category(', ') ?></dd>
 					</dl>
