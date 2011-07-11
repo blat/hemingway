@@ -175,8 +175,12 @@ table caption{
 * html #primary.twocol-stories .story{
   margin-left:2%;
 }
-#primary.twocol-stories .first, * html #primary.twocol-stories .first{
+#primary.twocol-stories .left, * html #primary.twocol-stories .left{
   margin:0 0 0 0;
+  clear:left;
+}
+#primary.twocol-stories .story p, * html #primary.twocol-stories .story p{
+  height:110px;
 }
 
 .story h3{
