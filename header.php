@@ -3,7 +3,7 @@
 
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
+<title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
 
 <meta name="generator" content="WordPress.com" /> <!-- leave this for stats -->
 
