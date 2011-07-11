@@ -132,19 +132,14 @@ table caption{
 }
 
 #header h2{
-  font-size:2.25em;
+  font-family:'Lobster Two', serif;
+  font-size:36px;
   margin:0 0.5em 0 0;
   padding:0 0.5em 0.25em 0;
   border-right:1px solid #808080;
   float:left;
 }
 #header h2 a{ text-decoration:none; }
-
-#header p{
-  padding:1em 0;
-  margin:0;
-  line-height:1em;
-}
 
 /*-----------------------------------------------------------------------------------------------
   Primary Items
@@ -169,14 +164,14 @@ table caption{
 #primary.twocol-stories .story{
   float:left;
   width:48%;
-  margin:0 0 0 4%;
+  margin:2em 0 0 4%;
   display:inline;
 }
 * html #primary.twocol-stories .story{
   margin-left:2%;
 }
 #primary.twocol-stories .left, * html #primary.twocol-stories .left{
-  margin:0 0 0 0;
+  margin-left:0;
   clear:left;
 }
 #primary.twocol-stories .story p, * html #primary.twocol-stories .story p{

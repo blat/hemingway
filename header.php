@@ -7,6 +7,7 @@
 
 <meta name="generator" content="WordPress.com" /> <!-- leave this for stats -->
 
+<link  href="http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic&v1" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 
 <?php
@@ -32,7 +33,6 @@
 			</div>
 			
 			<h2><a href="<?php echo get_settings('home'); ?>/"><?php bloginfo('name'); ?></a></h2>
-			<p class="description"><?php bloginfo('description'); ?></p>
 		</div>
 	</div>
 	<!-- [END] #header -->
